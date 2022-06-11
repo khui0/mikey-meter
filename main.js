@@ -17,6 +17,8 @@ const images = {
     10: "images/10.png"
 }
 
+const audio = new Audio("10.wav");
+
 const meter = document.querySelector("#meter");
 const text = document.querySelector("#meter+p");
 
@@ -36,7 +38,6 @@ document.getElementById("input").addEventListener("input", e => {
         text.textContent = "???";
     }
     if (score == 10) {
-        let audio = new Audio("10.wav");
         audio.play();
     }
 });
