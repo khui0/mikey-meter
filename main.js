@@ -1,6 +1,6 @@
 const overrides = {
     "7b0ab45a730e48a69239010b5b8fe5fa4e8eaac6": 10,
-    "1bb8649a5ca2388333c2c19ae84b380b9c8efe0a": 9
+    "1bb8649a5ca2388333c2c19ae84b380b9c8efe0a": 8,
 }
 
 const images = {
